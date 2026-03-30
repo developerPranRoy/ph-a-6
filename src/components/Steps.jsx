@@ -36,7 +36,7 @@ const Steps = () => {
       style={{ background: "#111827" }}
     >
       <div className="max-w-7xl mx-auto">
-        {/* Heading */}
+       
         <div className="text-center mb-14">
           <span className="section-label block mb-3">How It Works</span>
           <h2 className="text-4xl font-extrabold font-syne">
@@ -45,14 +45,14 @@ const Steps = () => {
           </h2>
         </div>
 
-        {/* Steps grid */}
+      
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
           {stepsData.map((step, i) => (
             <div
               key={i}
               className="relative rounded-2xl bg-[#161d2e] border border-[#1e2d4a] p-6 flex flex-col gap-4"
             >
-              {/* Icon + Step number */}
+      
               <div className="flex items-center justify-between">
                 <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-2xl">
                   {step.icon}
@@ -62,7 +62,7 @@ const Steps = () => {
                 </span>
               </div>
 
-              {/* Text */}
+           
               <div>
                 <h3 className="text-base font-bold text-white font-syne mb-1.5">
                   {step.title}
@@ -72,7 +72,7 @@ const Steps = () => {
                 </p>
               </div>
 
-              {/* Connector arrow (desktop only, not on last) */}
+  
               {i < stepsData.length - 1 && (
                 <div className="hidden lg:flex absolute top-1/2 -right-4 -translate-y-1/2 z-10 items-center justify-center">
                   <div className="w-7 h-7 rounded-full bg-[#1e2d4a] border border-blue-500/30 flex items-center justify-center">
