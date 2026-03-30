@@ -16,3 +16,5 @@ Features:
 5. Toast Notifications
 
 
+
+Note: The UI design was created and data genareted with the help of AI tools , but all functionalities and logic were implemented by me. I can explain line by line .Thank You.
