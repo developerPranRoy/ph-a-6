@@ -37,15 +37,14 @@ const App = () => {
 
   return (
     <div className="min-h-screen">
-      {/* <ToastContainer autoClose={2500} theme="dark" position="top-right" /> */}
 
       <Navbar cartCount={cartCount} onCartClick={scrollToMain} />
-      {/* <Banner /> */}
-      {/* <Stats /> */}
+      <Banner />
+      <Stats />
       <MainSection cart={cart} setCart={setCart} cartHandle={cartHandle} />
-      {/* <Steps />
+      <Steps />
       <Pricing />
-      <Footer /> */}
+      <Footer />
       <ToastContainer
         position="top-right"
         autoClose={2500}

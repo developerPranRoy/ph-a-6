@@ -4,14 +4,17 @@ import ProductCard from "./ProductCard";
 import CartItem from "./CartItem";
 
 import productsData from "../data/products.json";
+import { toast } from "react-toastify";
 
 const MainSection = ({ cart, setCart, cartHandle }) => {
   const [products, setProducts] = useState(productsData);
   // console.log(productsData);
 
-
+  const handleChecOut = () => {
+    setCart([])
+    toast.info("Proceed to payment");
+  }
   const [activeView, setActiveView] = useState("products");
-
   const total = cart.reduce((acc, item) => acc + item.price, 0);
 
   return (
@@ -132,7 +135,7 @@ const MainSection = ({ cart, setCart, cartHandle }) => {
                     </div>
                   </div>
 
-                  <button onClick={() => setCart([])} className="w-full py-3 rounded-xl bg-blue-500 hover:bg-blue-400 text-white font-semibold transition-all hover:scale-[1.01] shadow-lg shadow-blue-500/20 cursor-pointer">
+                  <button onClick={handleChecOut} className="w-full py-3 rounded-xl bg-blue-500 hover:bg-blue-400 text-white font-semibold transition-all hover:scale-[1.01] shadow-lg shadow-blue-500/20 cursor-pointer">
                     Proceed to Checkout →
                   </button>
                 </div>
