@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Pro",
+    "description": "Build ATS-optimized resumes with AI in minutes. Land interviews 3× faster.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI suggestions"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "FlowBoard",
+    "description": "Visual project management built for distributed teams. Kanban meets AI.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "Unlimited boards",
+      "Time tracking",
+      "Team analytics",
+      "Slack integration"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 3,
+    "name": "MailForge",
+    "description": "Cold email campaigns that convert. AI copywriting meets smart automation.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI email writer",
+      "Sequence builder",
+      "Open/click tracking",
+      "10k contacts"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 4,
+    "name": "ContentPilot",
+    "description": "Generate blog posts, tweets and LinkedIn content at scale — on brand.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ content types",
+      "Brand voice training",
+      "SEO scoring",
+      "Scheduler"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 5,
+    "name": "VaultPass",
+    "description": "Enterprise-grade password & secrets management for modern teams.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited vaults",
+      "Zero-knowledge encryption",
+      "SSO support",
+      "Audit logs"
+    ],
+    "icon": "🔐"
+  },
+  {
+    "id": 6,
+    "name": "InvoiceNest",
+    "description": "Invoice clients, track payments and manage your freelance finances effortlessly.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "Unlimited invoices",
+      "Auto-reminders",
+      "Multi-currency",
+      "Tax reports"
+    ],
+    "icon": "🧾"
+  },
+  {
+    "id": 7,
+    "name": "MonitorHQ",
+    "description": "Uptime monitoring, incident alerts and status pages for your SaaS product.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Hot",
+    "tagType": "hot",
+    "features": [
+      "30-sec checks",
+      "SMS & Slack alerts",
+      "Public status page",
+      "99.99% SLA"
+    ],
+    "icon": "📡"
+  },
+  {
+    "id": 8,
+    "name": "DataLens",
+    "description": "Connect databases and build beautiful dashboards — no SQL required.",
+    "price": 299,
+    "period": "yearly",
+    "tag": "Hot",
+    "tagType": "hot",
+    "features": [
+      "15+ connectors",
+      "Drag-drop charts",
+      "Share with link",
+      "Export CSV/PDF"
+    ],
+    "icon": "🔭"
+  },
+  {
+    "id": 9,
+    "name": "ChatWidget",
+    "description": "Add a GPT-powered support bot to your website in under 5 minutes.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Free forever plan",
+      "Custom knowledge base",
+      "Handoff to human",
+      "Analytics"
+    ],
+    "icon": "💬"
+  }
+]
