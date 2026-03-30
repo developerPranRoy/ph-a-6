@@ -72,7 +72,7 @@ const ProductCard = ({ cart, product, onAdd }) => {
               ? "bg-green-200 cursor-default text-red-500"
               : "bg-blue-500 hover:bg-blue-400 hover:scale-105 shadow-blue-500/20 cursor-pointer"
             }`}
-          disabled={isAdded}
+          disabled={isAdded} // disable button if already added
         >
           {isAdded ? "Added to Cart" : "Buy Now"}
         </button>
