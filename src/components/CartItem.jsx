@@ -1,9 +1,16 @@
+import { toast } from "react-toastify";
+
 const periodLabel = (p) =>
   ({ monthly: "/mo", yearly: "/yr", "one-time": " one-time" }[p] ?? "");
 
 
 const CartItem = ({ item, onRemove }) => {
   console.log(item);
+  const handleRemove = () => {
+    onRemove(item.id)
+    toast.warning(`${item.name} deleted from cart!`);
+
+  }
   return (
     <div className="flex items-center gap-4 rounded-2xl border border-[#1e2d4a] bg-[#161d2e] p-4 fade-up">
 
@@ -20,10 +27,7 @@ const CartItem = ({ item, onRemove }) => {
 
 
       <button
-        onClick={() => 
-          onRemove && onRemove(item.id)
-       
-        }
+        onClick={handleRemove}
         className="p-2 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 hover:border-red-400/40 transition-all shrink-0 cursor-pointer"
         title="Remove from cart"
       >

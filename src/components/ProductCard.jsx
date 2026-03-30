@@ -69,10 +69,10 @@ const ProductCard = ({ cart, product, onAdd }) => {
           onClick={() => !isAdded && onAdd(product)}
           className={`px-4 py-2 rounded-xl text-white text-sm font-semibold transition-all shadow-lg
             ${isAdded
-              ? "bg-green-200 cursor-default text-red-500"
+              ? "bg-green-700 cursor-default text-red-500"
               : "bg-blue-500 hover:bg-blue-400 hover:scale-105 shadow-blue-500/20 cursor-pointer"
             }`}
-          disabled={isAdded} // disable button if already added
+          disabled={isAdded} 
         >
           {isAdded ? "Added to Cart" : "Buy Now"}
         </button>
